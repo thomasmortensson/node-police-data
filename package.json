@@ -1,0 +1,21 @@
+{
+  "name": "node-police-data",
+  "version": "1.0.0",
+  "description": "Sample node application to parse police data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "police",
+    "data",
+    "yrs"
+  ],
+  "author": "Thomas Mortensson",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}

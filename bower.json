@@ -1,0 +1,26 @@
+{
+  "name": "node-police-data",
+  "version": "1.0",
+  "authors": [
+    "Thomas Mortensson <thomasmortensson@gmail.com>"
+  ],
+  "description": "Sample node application to parse police data",
+  "main": "index.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "police",
+    "data",
+    "yrs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
