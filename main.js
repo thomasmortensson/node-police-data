@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var routes = require('./routes/index');
+var api = require('./api');
 
 var app = express();
 
@@ -10,6 +11,8 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'www')));
 
 app.use('/', routes);
+
+app.get('/api/police', api.police);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
