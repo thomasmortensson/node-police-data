@@ -4,8 +4,7 @@
   "description": "Sample node application to parse police data",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
   "keywords": [
     "node",
@@ -16,6 +15,7 @@
   "author": "Thomas Mortensson",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.3.1",
     "express": "^4.12.4"
   }
 }
