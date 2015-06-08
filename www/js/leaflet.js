@@ -10,3 +10,8 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 L.marker([51.5, -0.09]).addTo(map)
     .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
     .openPopup();
+
+$.get("api/police?lat=52.629729&lng=-2.609690&year=2015&month=03", function(data, status){
+    console.log(data);
+});
+
