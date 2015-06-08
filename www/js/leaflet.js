@@ -9,7 +9,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 function onMapClick(e) {
     console.log(e.latlng);
-    $.get("api/police?lat=" + e.latlng.lat + "&lng=" + e.latlng.lng+ "&year=2015&month=03", function(data, status){
+    $.ajax({async: true, url: "api/police?lat=" + e.latlng.lat + "&lng=" + e.latlng.lng+ "&year=2015&month=03", success: function(data){
     var police_data = JSON.parse(data);
     for (var i=0; i<police_data.length; i++) {
     	console.log(police_data[i].category);
@@ -18,10 +18,9 @@ function onMapClick(e) {
 			.openPopup();
     }	
 
-});
+}});
 }
 
 map.on('click', onMapClick);
-// add a marker in the given location, attach some popup content to it and open the popup
-//
+
 
