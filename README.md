@@ -22,10 +22,10 @@ This example aims to be a simple skeleton project for a node application to disp
 - Leaflet added to map div
 - Routes and views set up
 - Static serve folder added
+- Add in open data source
+- Add GET request for open data to node app
+- Combined with Bootstrap
 
 ## TODO
 
-- Add in open data source
-- Add GET request for open data to node app
-- Combine with Bootstrap (maybe)
-
+- More commenting
