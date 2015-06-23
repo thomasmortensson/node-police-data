@@ -57,15 +57,15 @@ To run the application under normal circumstances
 
 To Exit press ctrl-D
 
-The startup script file is bin/www
+* The startup script file is bin/www
 
-The main backend server file is main.js (To edit what the server does edit here)
-The route file is routes/index.js (To add pages edit here)
-The API methods are in api.js (To add new API methods edit here)
-The main web page (index.html) is generated in views/index.ejs (To change what is on the main page edit here)
+* The main backend server file is main.js (To edit what the server does edit here)
+* The route file is routes/index.js (To add pages edit here)
+* The API methods are in api.js (To add new API methods edit here)
+* The main web page (index.html) is generated in views/index.ejs (To change what is on the main page edit here)
 
-Client side Javascript code is stored in www/js/leaflet.js (To edit how the map interacts edit here)
-Client side styling information is stored in www/css/style.css (To change how the main page looks edit here)
+* Client side Javascript code is stored in www/js/leaflet.js (To edit how the map interacts edit here)
+* Client side styling information is stored in www/css/style.css (To change how the main page looks edit here)
 
 To add client side packages:
 ``` bower install --save package```
