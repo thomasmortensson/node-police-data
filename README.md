@@ -33,6 +33,7 @@ To get a hang of HTML/CSS/JS try spending some time on CodeAcademy. You should b
 This project uses the UK police data source to plot crimes on a map.
 https://data.police.uk/docs/
 
+Bower and NPM can be ignored for the most part, these are frameworks we use to make package installation easier for you however after initial setup (See Quick Start) you shouldn't really have to touch them.
 
 ## Quickstart
 
