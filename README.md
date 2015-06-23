@@ -1,6 +1,6 @@
 # node-police-data example
 
-This example aims to be a simple skeleton project for a node application to display information from an open data source on a map. The aims of this project are to teach the concepts of:
+This example project aims to be a simple skeleton for a Node application to display information from an open data source on a map. The aims of this project are to teach the concepts of:
 
 - Node.js
 - EJS views
@@ -8,30 +8,30 @@ This example aims to be a simple skeleton project for a node application to disp
 - PUT/GET requests
 - Static HTML serving (js/css/html/whatever else)
 - Access to an open data source
-- Usage of leaflet
-- NPM and Bower
-- Bootstrap (possibly)
-
-I would strongly recommend looking through some sample pages at the following links to understand the frameworks I use to make YOUR life easier. You don't have to understand all of this but any knowledge absorbed could be useful.
-
-The core techonlogies we use are:
-- Node.JS
-- HTML
-- CSS
-- JavaScript
-- Bower
-- Leaflet.js
+- Usage of mapping utilities
 - Bootstrap
 
-Please try to at least have a play around with HTML, CSS and Javascript as these are the building blocks of everything web, think of them as the foundations. 
+I would recommend looking through some sample pages in the additional reading section as these will help you to understand the frameworks I use. You don't have to understand all of this but any knowledge absorbed will help you understand the more complex parts of this project. Even without additional reading, you should be able to modify portions of this project to get a kick start into the world of web development.
 
-At the ABSOLUTE least, try to do the following two tutorials first.
+The core techonlogies we use in this project are:
+
+- HTML
+- CSS
+	- Bootstrap
+- JavaScript
+	- Node.JS
+	- Bower
+	- Leaflet.js
+
+
+HTML, CSS and Javascript are the building blocks of everything web, think of them as the foundations. 
+
+To get a hang of HTML/CSS/JS try spending some time on CodeAcademy. You should be able to start making edits to this project pretty soon after starting :)
 * http://www.codecademy.com/en/tracks/web
 * http://www.codecademy.com/en/tracks/javascript
 
 This project uses the UK police data source to plot crimes on a map.
 https://data.police.uk/docs/
-
 
 
 ## Quickstart
