@@ -14,9 +14,6 @@ This example aims to be a simple skeleton project for a node application to disp
 
 I would strongly recommend looking through some sample pages at the following links to understand the frameworks I use to make YOUR life easier. You don't have to understand all of this but any knowledge absorbed could be useful.
 
-
-
-
 The core techonlogies we use are:
 - Node.JS
 - HTML
@@ -35,24 +32,46 @@ At the ABSOLUTE least, try to do the following two tutorials first.
 This project uses the UK police data source to plot crimes on a map.
 https://data.police.uk/docs/
 
-## Usage
-
-
 
 
 ## Quickstart
 
 - Install Node.js - https://nodejs.org/download/
 - Download this repository - https://github.com/thomasmortensson/node-police-data/archive/master.zip
-- Open node shell
+- Unzip this file
+- Open node command prompt
 - Type:
 ```
+cd project_directory
 npm install -g bower
 npm install
 bower install
 npm start
 ```
 - Open browser and enjoy - http://localhost:3000
+
+## Usage
+
+To run the application under normal circumstances
+```npm start```
+
+To Exit press ctrl-D
+
+The startup script file is bin/www
+
+The main backend server file is main.js (To edit what the server does edit here)
+The route file is routes/index.js (To add pages edit here)
+The API methods are in api.js (To add new API methods edit here)
+The main web page (index.html) is generated in views/index.ejs (To change what is on the main page edit here)
+
+Client side Javascript code is stored in www/js/leaflet.js (To edit how the map interacts edit here)
+Client side styling information is stored in www/css/style.css (To change how the main page looks edit here)
+
+To add client side packages:
+``` bower install --save package```
+
+To add server side packages
+``` npm install --save package ```
 
 ## Additional reading
 * https://nodejs.org
