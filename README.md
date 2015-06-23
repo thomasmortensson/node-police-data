@@ -14,13 +14,7 @@ This example aims to be a simple skeleton project for a node application to disp
 
 I would strongly recommend looking through some sample pages at the following links to understand the frameworks I use to make YOUR life easier. You don't have to understand all of this but any knowledge absorbed could be useful.
 
-https://nodejs.org
-http://nodeschool.io/
-http://www.w3schools.com
-http://leafletjs.com
-http://getbootstrap.com
-http://bower.io
-https://docs.npmjs.com/getting-started/what-is-npm
+
 
 
 The core techonlogies we use are:
@@ -35,12 +29,39 @@ The core techonlogies we use are:
 Please try to at least have a play around with HTML, CSS and Javascript as these are the building blocks of everything web, think of them as the foundations. 
 
 At the ABSOLUTE least, try to do the following two tutorials first.
-http://www.codecademy.com/en/tracks/web
-http://www.codecademy.com/en/tracks/javascript
+* http://www.codecademy.com/en/tracks/web
+* http://www.codecademy.com/en/tracks/javascript
 
 This project uses the UK police data source to plot crimes on a map.
 https://data.police.uk/docs/
 
+## Usage
+
+
+
+
+## Quickstart
+
+- Install Node.js - https://nodejs.org/download/
+- Download this repository - https://github.com/thomasmortensson/node-police-data/archive/master.zip
+- Open node shell
+- Type:
+```
+npm install -g bower
+npm install
+bower install
+npm start
+```
+- Open browser and enjoy - http://localhost:3000
+
+## Additional reading
+* https://nodejs.org
+* http://nodeschool.io/
+* http://www.w3schools.com
+* http://leafletjs.com
+* http://getbootstrap.com
+* http://bower.io
+* https://docs.npmjs.com/getting-started/what-is-npm
 
 ## Current status
 
@@ -59,6 +80,7 @@ https://data.police.uk/docs/
 
 ## TODO
 - More in depth comments
+- Make more user friendly
 
 ## ISSUES
 - If lots of crimes are detected in local area, map can take a while to populate
