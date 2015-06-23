@@ -1,11 +1,17 @@
 #!/usr/bin/env node
+
+// Entrypoint for npm to start the application
+
+//Use main.js to create the server
 var app = require('../main');
 
+// Use port 3000
 app.set('port', process.env.PORT || 3000);
 
 var server = app.listen(app.get('port'));
 
- var host = server.address().address;
- var port = server.address().port;
+var host = server.address().address;
+var port = server.address().port;
 
- console.log('Example app listening at http://%s:%s', host, port);
+// Print out address to connect to node server to console
+console.log('Example app listening at http://%s:%s', host, port);

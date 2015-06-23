@@ -1,5 +1,8 @@
+/* Pad the document at the top */
+
 body {
   padding-top: 50px;
 }
 
+/* Set map height to be full page (100% vertical height) */
 #map { height: 100vh; }

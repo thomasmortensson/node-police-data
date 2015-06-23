@@ -1,13 +1,29 @@
+<!-- This web page is a basic home page which features a bootstrap navigation toolbar and a leaflet map.  -->
+<!-- It would be useful to look at the web pages indicated in this file to familiarise yourself with the tools used. -->
+
+<!-- For an in depth explanation of each of the tags used in this file (e.g <li></li>), please consilt:  -->
+<!-- http://www.w3schools.com -->
+
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Add page title -->
     <title>Node Police Data</title>
+
+    <!-- Add our own stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Add Leaflet.js mapping components (Using bower) -->
+    <!-- http://leafletjs.com -->
     <link rel="stylesheet" href="components/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css" />
     <script src="components/leaflet/dist/leaflet.js"></script>
-    <script src="components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Add Bootstrap components (Using bower) -->
+    <!-- http://getbootstrap.com/getting-started/ -->
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css" />
     <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="components/jquery/dist/jquery.min.js"></script>
+
   </head>
   <body>
 
@@ -29,7 +45,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
